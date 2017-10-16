@@ -1,0 +1,42 @@
+{
+  "name": "play-me-pianos-scraper",
+  "description": "Scraper for finding public pianos.",
+  "keywords": [
+    "play",
+    "me",
+    "pianos",
+    "scraper",
+    "for",
+    "finding",
+    "public"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "homepage": "https://github.com/IonicaBizau/play-me-pianos-scraper#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/play-me-pianos-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/play-me-pianos-scraper/issues"
+  }
+}
