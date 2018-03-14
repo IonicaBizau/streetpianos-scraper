@@ -1,9 +1,9 @@
 {
   "bin": {
-    "streetpianos": "bin/streetpianos"
+    "streetpianos-scraper": "bin/streetpianos-scraper"
   },
-  "name": "streetpianos",
-  "description": "Scraper for http://streetpianos.com/.",
+  "name": "streetpianos-scraper",
+  "description": "Scraper for http://streetpianos-scraper.com/.",
   "keywords": [
     "play",
     "me",
@@ -20,7 +20,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
-  "homepage": "https://github.com/IonicaBizau/streetpianos",
+  "homepage": "https://github.com/IonicaBizau/streetpianos-scraper",
   "files": [
     "bin/",
     "app/",
@@ -37,10 +37,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/streetpianos"
+    "url": "git+ssh://git@github.com/IonicaBizau/streetpianos-scraper"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/streetpianos/issues"
+    "url": "https://github.com/IonicaBizau/streetpianos-scraper/issues"
   },
   "dependencies": {
     "nightmare": "^2.10.0",
