@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+"use strict";
+
+const Tilda = require("tilda")
+    , playMePianosScraper = require("..")
+    ;
+
+new Tilda(`${__dirname}/../package.json`, {
+    args: [
+        {
+            name: "config"
+          , desc: "The config file path. A json file containing urls as an array."
+        }
+    ]
+}).main(action => {
+    playMePianosScraper.run(require(`${process.cwd()}/${action.args.config}`)).then(res => {
+        process.stdout.write("[")
+        res.forEach((c, i) => process.stdout.write(`${JSON.stringify(c)}${i !== res.length -1 ? "," : ""}`))
+        process.stdout.write("]")
+    }).catch(err => {
+        console.error(err.stack)
+    })
+});
