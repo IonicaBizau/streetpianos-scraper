@@ -1,6 +1,9 @@
 {
-  "name": "play-me-pianos-scraper",
-  "description": "Scraper for finding public pianos.",
+  "bin": {
+    "streetpianos": "bin/streetpianos"
+  },
+  "name": "streetpianos",
+  "description": "Scraper for http://streetpianos.com/.",
   "keywords": [
     "play",
     "me",
@@ -17,7 +20,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
-  "homepage": "https://github.com/IonicaBizau/play-me-pianos-scraper#readme",
+  "homepage": "https://github.com/IonicaBizau/streetpianos",
   "files": [
     "bin/",
     "app/",
@@ -34,9 +37,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/play-me-pianos-scraper.git"
+    "url": "git+ssh://git@github.com/IonicaBizau/streetpianos"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/play-me-pianos-scraper/issues"
+    "url": "https://github.com/IonicaBizau/streetpianos/issues"
+  },
+  "dependencies": {
+    "nightmare": "^2.10.0",
+    "puppeteer": "^0.12.0",
+    "tilda": "^4.4.11"
   }
 }
